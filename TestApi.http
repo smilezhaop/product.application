@@ -1,0 +1,22 @@
+
+//查询所有数据
+GET http://localhost:8080/api/category/query
+
+###
+
+//查询一级类目
+GET http://localhost:8080
+  /api
+  /category
+  /query
+  ?parentCategoryId=CROOT
+
+###
+//保存（添加删除修改）
+GET http://localhost:8080/api/category/save
+
+
+###
+GET http://localhost:8080/api/media/query
+
+###
