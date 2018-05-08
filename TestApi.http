@@ -20,3 +20,19 @@ GET http://localhost:8080/api/category/save
 GET http://localhost:8080/api/media/query
 
 ###
+//**************product**************
+
+GET http://localhost:8080/api/product/query
+
+###
+
+GET http://localhost:8080/api/product/query?id=p01
+
+
+###
+GET http://localhost:8080/api/product/query?title=pro1
+
+###
+GET http://localhost:8080/api/product/save
+
+###
